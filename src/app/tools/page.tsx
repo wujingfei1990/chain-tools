@@ -1,5 +1,6 @@
 "use client"
 import { useEffect, useState } from 'react'
+import { ethers } from 'ethers'
 
 export default function Page() {
   const [cosigner, setCosigner] = useState("")
